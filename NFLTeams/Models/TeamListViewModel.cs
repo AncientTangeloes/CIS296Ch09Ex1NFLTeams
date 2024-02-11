@@ -4,6 +4,7 @@ namespace NFLTeams.Models
 {
     public class TeamListViewModel : TeamViewModel
     {
+        public string UserName { get; set; }
         public List<Team> Teams { get; set; }
 
         // use full properties for Conferences and Divisions 
